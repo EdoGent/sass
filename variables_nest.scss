@@ -1,0 +1,54 @@
+$colorR:red;
+$colorG:green;
+$colorB:blue;
+
+.container {
+    border: 1px solid $colorG ;
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: $colorG;
+        text-decoration: underline $colorB;
+    }
+    .loremsdivs {
+        display: flex;
+        flex-direction: row;
+        div:nth-child(1){
+        border: 1px solid $colorG;
+        color: $colorB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        margin: 10px;
+       }
+       div:nth-child(2) {
+        border: 1px solid $colorG;
+        color: $colorR;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        margin: 10px;
+       }
+       div:nth-child(3) {
+        border: 1px solid $colorG;
+        color: $colorB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        margin: 10px;
+       }
+       div:nth-child(4) {
+        border: 1px solid $colorG;
+        color: $colorR;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        margin: 10px;
+       }
+    }
+}
+

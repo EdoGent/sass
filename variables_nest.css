@@ -1,0 +1,51 @@
+.container {
+  border: 1px solid green;
+}
+.container h1 {
+  display: flex;
+  justify-content: center;
+  color: green;
+  text-decoration: underline blue;
+}
+.container .loremsdivs {
+  display: flex;
+  flex-direction: row;
+}
+.container .loremsdivs div:nth-child(1) {
+  border: 1px solid green;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 10px;
+}
+.container .loremsdivs div:nth-child(2) {
+  border: 1px solid green;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 10px;
+}
+.container .loremsdivs div:nth-child(3) {
+  border: 1px solid green;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 10px;
+}
+.container .loremsdivs div:nth-child(4) {
+  border: 1px solid green;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=variables_nest.css.map */
