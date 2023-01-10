@@ -1,7 +1,4 @@
 @use "module";
-p {
-    width: module.pxToRem(700px);
-}
 
 $colorR:red;
 $colorG:green;
@@ -70,6 +67,55 @@ $colorB:blue;
         margin: 10px;
        }
     }
+    .numbers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .fs-1rem {
+            border: 1px solid red;
+            width: module.pxToRem(45px);
+            height: module.pxToRem(45px);
+            p {
+                margin: 0px;
+            }
+        }
+    
+        .fs-2rem {
+            @extend .fs-1rem;
+        }
+    
+        .fs-3rem {
+            @extend .fs-1rem;
+        }
+    
+        @for $flow from 1 through 19 {
+            .fs-1rem {
+                font-size: 1rem;
+            }
+    
+            .fs-2rem {
+                font-size: 2rem;
+            }
+    
+            .fs-3rem {
+                font-size: 3rem;
+            }
+        }
+        $base-color: white;
+        $basecolor: black;
+        @for $i from 1 through 19 {
+            div:nth-child(19n + #{$i}) {
+                background-color: darken($base-color, $i * 5%);
+                color: lighten($basecolor, $i * 5%);
+            }
+        }
+          
+        div:nth-child(10) {
+            background-color: blue;
+            color: red;
+        }
+    }
+
     .p {
         @include item(red, blue, 24px);
         display: flex;

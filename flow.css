@@ -1,0 +1,330 @@
+.container {
+  border: 1px solid green;
+}
+.container h1, .container .subtitle {
+  display: flex;
+  justify-content: center;
+  color: green;
+  text-decoration: underline blue;
+}
+.container .subtitle {
+  text-decoration: none;
+  padding: 1rem;
+  border: 1px solid red;
+}
+.container .loremsdivs {
+  display: flex;
+  flex-direction: row;
+}
+.container .loremsdivs div:nth-child(1) {
+  border: 1px solid green;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 10px;
+}
+.container .loremsdivs div:nth-child(2) {
+  border: 1px solid green;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 10px;
+}
+.container .loremsdivs div:nth-child(3) {
+  border: 1px solid green;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 10px;
+}
+.container .loremsdivs div:nth-child(4) {
+  border: 1px solid green;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 10px;
+}
+.container .numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-3rem, .container .numbers .fs-2rem {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+}
+.container .numbers .fs-1rem p, .container .numbers .fs-3rem p, .container .numbers .fs-2rem p {
+  margin: 0px;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers .fs-1rem, .container .numbers .fs-2rem, .container .numbers .fs-3rem {
+  font-size: 1rem;
+}
+.container .numbers .fs-2rem {
+  font-size: 2rem;
+}
+.container .numbers .fs-3rem {
+  font-size: 3rem;
+}
+.container .numbers div:nth-child(19n+1) {
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+}
+.container .numbers div:nth-child(19n+2) {
+  background-color: #e6e6e6;
+  color: #1a1a1a;
+}
+.container .numbers div:nth-child(19n+3) {
+  background-color: #d9d9d9;
+  color: #262626;
+}
+.container .numbers div:nth-child(19n+4) {
+  background-color: #cccccc;
+  color: #333333;
+}
+.container .numbers div:nth-child(19n+5) {
+  background-color: #bfbfbf;
+  color: #404040;
+}
+.container .numbers div:nth-child(19n+6) {
+  background-color: #b3b3b3;
+  color: #4d4d4d;
+}
+.container .numbers div:nth-child(19n+7) {
+  background-color: #a6a6a6;
+  color: #595959;
+}
+.container .numbers div:nth-child(19n+8) {
+  background-color: #999999;
+  color: #666666;
+}
+.container .numbers div:nth-child(19n+9) {
+  background-color: #8c8c8c;
+  color: #737373;
+}
+.container .numbers div:nth-child(19n+10) {
+  background-color: gray;
+  color: gray;
+}
+.container .numbers div:nth-child(19n+11) {
+  background-color: #737373;
+  color: #8c8c8c;
+}
+.container .numbers div:nth-child(19n+12) {
+  background-color: #666666;
+  color: #999999;
+}
+.container .numbers div:nth-child(19n+13) {
+  background-color: #595959;
+  color: #a6a6a6;
+}
+.container .numbers div:nth-child(19n+14) {
+  background-color: #4d4d4d;
+  color: #b3b3b3;
+}
+.container .numbers div:nth-child(19n+15) {
+  background-color: #404040;
+  color: #bfbfbf;
+}
+.container .numbers div:nth-child(19n+16) {
+  background-color: #333333;
+  color: #cccccc;
+}
+.container .numbers div:nth-child(19n+17) {
+  background-color: #262626;
+  color: #d9d9d9;
+}
+.container .numbers div:nth-child(19n+18) {
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+}
+.container .numbers div:nth-child(19n+19) {
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+}
+.container .numbers div:nth-child(10) {
+  background-color: blue;
+  color: red;
+}
+.container .p {
+  color: red;
+  border-color: blue;
+  font-size: 24px;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=flow.css.map */
