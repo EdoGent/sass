@@ -5,11 +5,16 @@ p {
 .container {
   border: 1px solid green;
 }
-.container h1 {
+.container h1, .container .subtitle {
   display: flex;
   justify-content: center;
   color: green;
   text-decoration: underline blue;
+}
+.container .subtitle {
+  text-decoration: none;
+  padding: 1rem;
+  border: 1px solid red;
 }
 .container .loremsdivs {
   display: flex;
@@ -62,4 +67,4 @@ p {
   margin: 10px;
 }
 
-/*# sourceMappingURL=func_modules.css.map */
+/*# sourceMappingURL=extend.css.map */
