@@ -2,6 +2,14 @@ $colorR:red;
 $colorG:green;
 $colorB:blue;
 
+
+@mixin item($color, $border-color, $font-size) {
+    color: $color;
+    border-color: $border-color;
+    font-size: $font-size;
+    border: 1px solid $colorB;
+}
+
 .container {
     border: 1px solid $colorG ;
     h1 {
@@ -50,5 +58,11 @@ $colorB:blue;
         margin: 10px;
        }
     }
+    .p {
+        @include item(red, blue, 24px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
 }
-
