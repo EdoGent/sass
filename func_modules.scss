@@ -1,7 +1,11 @@
+@use "module";
+p {
+    width: module.pxToRem(700px);
+}
+
 $colorR:red;
 $colorG:green;
 $colorB:blue;
-
 
 @mixin item($color, $border-color, $font-size) {
     color: $color;
@@ -66,3 +70,4 @@ $colorB:blue;
         margin: 10px;
     }
 }
+

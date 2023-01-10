@@ -1,3 +1,7 @@
+p {
+  width: 43.75rem;
+}
+
 .container {
   border: 1px solid green;
 }
@@ -58,4 +62,4 @@
   margin: 10px;
 }
 
-/*# sourceMappingURL=mixin.css.map */
+/*# sourceMappingURL=func_modules.css.map */
